@@ -20,4 +20,5 @@ const start = (needLimit = false) => {
         });
 };
 
-start(process.argv[2] === '1')
+// start with cli args
+start(process.argv[2] === 'true');
